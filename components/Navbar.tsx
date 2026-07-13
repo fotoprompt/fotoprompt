@@ -1,3 +1,5 @@
+import ThemeSwitcher from "@/components/ThemeSwitcher";
+
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-lg">
@@ -23,9 +25,12 @@ export default function Navbar() {
             Blog
           </a>
 
+          <ThemeSwitcher />
+
           <button className="rounded-xl bg-violet-600 px-5 py-2 font-semibold text-white transition hover:bg-violet-500">
             Get Started
           </button>
+
         </div>
       </div>
     </nav>
