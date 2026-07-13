@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import UploadBox from "@/components/UploadBox";
 import ResultBox from "@/components/ResultBox";
+import HowItWorks from "@/components/HowItWorks";
 
 import { AppProvider } from "@/context/AppContext";
 
@@ -22,6 +23,7 @@ export default function Home() {
             <ResultBox />
           </div>
         </section>
+        <HowItWorks />
       </main>
     </AppProvider>
   );
